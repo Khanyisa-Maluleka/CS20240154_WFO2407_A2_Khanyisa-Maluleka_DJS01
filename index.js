@@ -8,10 +8,10 @@
 // Given Parameters
 const velocity = 10000; // velocity (km/h)
 const acceleration = 3 * 12960; // converted acceleration (m/s^2) to (km/h^2)
-const time = 1; // time in hours, converted from seconds
+const time = 1; // converted time from seconds to hours
 const distance = 0; // distance (km)
 const fuel = 5000; // remaining fuel (kg)
-const fbr = 0.5; // fuel burn rate (kg/s)
+const fbr = 0.5 * 3600; // fuel burn rate (kg/s)
 
 
 const newDistance = distance + (velocity*time) //calcultes new distance
